@@ -113,6 +113,10 @@
     dispatch_resume(self.timer);
 }
 
+- (void)dealloc {
+    NSLog(@"%s dealloc",object_getClassName(self));
+}
+
 
 #pragma mark - UITableViewDataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -165,9 +169,11 @@
         dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
         _timer = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0,queue);
         dispatch_source_set_timer(_timer,dispatch_walltime(NULL, 0),1.0*NSEC_PER_SEC, 0); //每秒执行
+        
+        __weak __typeof(&*self)weakSelf = self;
         dispatch_source_set_event_handler(_timer, ^{
             dispatch_async(dispatch_get_main_queue(), ^{
-                [self updateTimeInVisibleCells];
+                [weakSelf updateTimeInVisibleCells];
             });
         });
     }
@@ -176,6 +182,7 @@
 
 #pragma mark - 私有方法
 - (void)updateTimeInVisibleCells {
+    NSLog(@"asdf");
     NSArray *cells = self.tableView.visibleCells; //取出屏幕可见ceLl
     for (CountDownCell *cell in cells) {
         NSIndexPath *indexPath = [self.tableView indexPathForCell:cell];

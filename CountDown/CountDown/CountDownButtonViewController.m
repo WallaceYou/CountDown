@@ -32,7 +32,7 @@
 }
 
 - (void)dealloc {
-    NSLog(@"");
+    NSLog(@"%s dealloc",object_getClassName(self));
 }
 
 
