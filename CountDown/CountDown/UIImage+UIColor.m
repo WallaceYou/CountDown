@@ -2,8 +2,8 @@
 //  UIImage+UIColor.m
 //  CEAir
 //
-//  Created by 郑海清 on 16/6/22.
-//  Copyright © 2016年 hengtiansoft. All rights reserved.
+//  Created by yuyou on 16/6/22.
+//  Copyright © 2016年 yuyou. All rights reserved.
 //
 
 #import "UIImage+UIColor.h"

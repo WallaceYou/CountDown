@@ -574,7 +574,7 @@
 				DEVELOPMENT_TEAM = LF4LUA4G2N;
 				INFOPLIST_FILE = CountDown/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.morpx.CountDown;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuyou.CountDown;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -588,7 +588,7 @@
 				DEVELOPMENT_TEAM = LF4LUA4G2N;
 				INFOPLIST_FILE = CountDown/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.morpx.CountDown;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuyou.CountDown;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -602,7 +602,7 @@
 				DEVELOPMENT_TEAM = LF4LUA4G2N;
 				INFOPLIST_FILE = CountDownTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.morpx.CountDownTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuyou.CountDownTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountDown.app/CountDown";
@@ -617,7 +617,7 @@
 				DEVELOPMENT_TEAM = LF4LUA4G2N;
 				INFOPLIST_FILE = CountDownTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.morpx.CountDownTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuyou.CountDownTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountDown.app/CountDown";
@@ -631,7 +631,7 @@
 				DEVELOPMENT_TEAM = LF4LUA4G2N;
 				INFOPLIST_FILE = CountDownUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.morpx.CountDownUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuyou.CountDownUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = CountDown;
@@ -645,7 +645,7 @@
 				DEVELOPMENT_TEAM = LF4LUA4G2N;
 				INFOPLIST_FILE = CountDownUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.morpx.CountDownUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuyou.CountDownUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = CountDown;
